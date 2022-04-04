@@ -1,10 +1,7 @@
 import React from 'react';
-
 import { useData } from '../hooks/useData';
 import ChartBar from './chart/ChartBar';
 import ChartLine from './chart/ChartLine';
-
-
 
 const Dashboard = () => {
    const url = "data.json";
